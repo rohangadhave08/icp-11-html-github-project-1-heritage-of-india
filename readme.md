@@ -1,6 +1,7 @@
 
 
-Embark on a Timeless Journey Through India's Heritage –[visit our website](https://indian-heritage-sites.netlify.app/)
+Embark on a Timeless Journey Through India's Heritage – Visit Our Website
+
 # HERITAGE OF INDIA
 Heritage Sites of IndiaIndia, with its rich cultural and historical legacy, is home to a vast number of heritage sites that represent its ancient civilization, architectural marvels, and natural beauty. These sites are a testament to the country's diversity and are recognized globally for their significance. 
 
@@ -71,6 +72,10 @@ ___
 
 ---
 
+
+
+
+
 ## CONTRIBUTORS
 <a href="https://github.com/rohangadhave08/icp-11-html-github-project-1-heritage-of-india/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rohangadhave08/icp-11-html-github-project-1-heritage-of-india" />
@@ -86,4 +91,5 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 - *Phone:*[+91-7888166954](tel:+917888166954)
 
 Feel free to contribute to this project or open an issue if you find any improvements!
+
 
