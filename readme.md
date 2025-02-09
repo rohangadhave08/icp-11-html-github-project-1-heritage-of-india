@@ -81,7 +81,7 @@ ___
   <img src="https://contrib.rocks/image?repo=rohangadhave08/icp-11-html-github-project-1-heritage-of-india" />
 </a>
 
-## 📩 Contact  
+##  Contact  
 
 If you have any questions, suggestions, or feedback, feel free to reach out:  
 
