@@ -26,55 +26,57 @@
           <h1>Our Team</h1>
          <center><img src="./../images\teammembers.jpg" width="500" height="500"></center>
           </div>
-          <table>
-            <tr>
-            <th>Name</th>
-            <th>Destination</th>
-            <th>Work</th>
-            <th>Phone No</th>
-            </tr>
-            <td>Rohan Gadhave</td>
-            <td>Founder</td>
-            <td>Indian Heritage</td>
-            <td>+91 9234567890</td>
-            </tr>
-            <td>Vaibhav Shinde</td>
-            <td>CEO</td>
-            <td>Cultural Temples</td>
-            <td>+91 9856785690</td>
-            </tr>
-            <td>Sadashiv Mule</td>
-            <td>Director</td>
-            <td>Forts</td>
-            <td>+91 9034567890</td>
-            </tr>
-            <td>Saurabh Kharpude</td>
-            <td>Senior Producer</td>
-            <td>About</td>
-            <td>+91 9185867890</td>
-            </tr>
-            <td>Sayli Gadhe</td>
-            <td>Marketing Manager</td>
-            <td>Art and Music</td>
-            <td>+91 9434567890</td>
-            </tr>
-            <td>Shreya Kore</td>
-            <td>Manager</td>
-            <td>Natural Parks</td>
-            <td>+91 9745678960</td>
-            </tr>
-            <td>Khushi Yewale</td>
-            <td>Creative Director</td>
-            <td>Caves</td>
-            <td>+91 9456845690</td>
-            </tr>
-            <td>Shreya Deshmukh</td>
-            <td>Business Develpoer</td>
-            <td>Philosophy and Literature</td>
-            <td>+91 9234456790</td>
-            </tr>
-             </table>
-          <div>
+          <table border="1">
+            <thead>
+              <tr>
+                <th colspan="2">Name</th>
+                <th colspan="2">Work</th>
+                </tr>
+            </thead>
+             <tbody>
+              <tr>
+                <td>1</td>
+                <td>Rohan Gadhave</td>
+                <td>Indian Heritage</td>
+                </tr>
+                 
+             <tr>
+                <td>2</td>
+                <td>Vaibhav Shinde</td>
+                <td>Cultural Temples</td>
+             </tr>
+             <tr>
+                <td>3</td>
+                <td>Sadashiv Mule</td>
+                <td>Forts</td>
+             </tr>
+             <tr>
+                <td>4</td>
+                <td>Saurabh Kharpude</td>
+                <td>About</td>
+             </tr>
+             <tr>
+                <td>5</td>
+                <td>Shreya Deshmukh</td>
+                <td>Philosophy and Literature</td>
+             </tr>
+             <tr>
+                <td>6</td>
+                <td>Sayali Gadhe</td>
+                <td>Art and Music</td>
+             </tr>
+             <tr>
+                <td>7</td>
+                <td>Khushi Yewale</td>
+                <td>Caves</td>
+             </tr>
+             <tr>
+                <td>8</td>
+                <td>Shreya Kore</td>
+                <td>Natural Parks</td>
+             </tr>
+            </tbody>
+          </table>
         <div>
         <h2>Our Story</h2>
         <p>Indian Heritage is a website dedicated to showcasing the rich cultural heritage of India. Our journey began with a passion to preserve and promote India's cultural traditions, and to share them with the world.</p>
@@ -93,46 +95,17 @@
         </ul>
         <img src="./../images\index-images\our_misssion.jpg" alt="Our Mission Image">
     </div>
-    <h2>Customer Reviews</h2>
-        
-        <div>
-            <h3>Siya</h3>
-            <p>Rating: 5/5</p>
-            <p>"Excellent service"</p>
-        </div>
-
-        <div> 
-            <h3>Riya</h3>
-            <p>Rating:4/5</p>
-            <p>"Great"</p>
-        </div>
-
-        <div>
-            <h3>Priya</h3>
-            <p>Rating:5/5</p>
-            <p>"Good"</p>
-        </div>
-        <h3>Leave a Review</h3>
+    <div>
+        <h2>Ask a Query</h2>
         <form>
-            <label>Name:</label>
-            <input type="text" name="name">
-            
-            <label>Rating:</label>
-            <select name="rating">
-            <option value="1">1/5</option>
-            <option value="2">2/5</option>
-            <option value="3">3/5</option>
-            <option value="4">4/5</option>
-            <option value="5">5/5</option>
-            </select>
-            <label>Review:</label>
-            <input type="text" name="Review">
-            
-            
-            
-            <input type="submit" value="Submit">
-            </form>
-            <hr><hr>
-            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="query">Query:</label>
+            <textarea id="query" name="query"></textarea><br><br>
+            <button type="submit">Submit Query</button>
+        </form>
+    </div>
    </body>     
 </html>
