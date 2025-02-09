@@ -81,15 +81,16 @@ ___
   <img src="https://contrib.rocks/image?repo=rohangadhave08/icp-11-html-github-project-1-heritage-of-india" />
 </a>
 
-## Contact
+## 📩 Contact  
 
-If you have any questions, suggestions, or feedback, feel free to reach out:
+If you have any questions, suggestions, or feedback, feel free to reach out:  
 
-- *GitHub:* [rohangadhave08](https://github.com/rohangadhave08)  
-- *Email:* [rohangadhave993@gmail.com](mailto:rohangadhave993@gmail.com)  
-- *LinkedIn:* [linkedin.com/in/rohan-gadhave](https://www.linkedin.com/in/rohan-gadhave-48032a350)  
-- *Phone:*[+91-7888166954](tel:+917888166954)
+- **GitHub:** [rohangadhave08](https://github.com/rohangadhave08)  
+- **Email:** [rohangadhave993@gmail.com](mailto:rohangadhave993@gmail.com)  
+- **LinkedIn:** [Rohan Gadhave](https://www.linkedin.com/in/rohan-gadhave-48032a350)  
+- **Phone:** [+91 78881 66954](tel:+917888166954)  
 
-Feel free to contribute to this project or open an issue if you find any improvements!
+💡 *Feel free to contribute to this project or open an issue if you have suggestions for improvements!* 🚀  
+
 
 
