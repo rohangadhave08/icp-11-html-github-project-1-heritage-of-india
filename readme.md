@@ -88,7 +88,7 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 - **GitHub:** [rohangadhave08](https://github.com/rohangadhave08)  
 - **Email:** [rohangadhave993@gmail.com](mailto:rohangadhave993@gmail.com)  
 - **LinkedIn:** [Rohan Gadhave](https://www.linkedin.com/in/rohan-gadhave-48032a350)  
-- **Phone:** [+91 78881 66954](tel:+917888166954)  
+- **Phone:** <a href="tel:+917888166954"> +91 78881 66954</a>  
 
 💡 *Feel free to contribute to this project or open an issue if you have suggestions for improvements!* 🚀  
 
