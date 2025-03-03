@@ -2,18 +2,71 @@
 <html>
 <head>
     <title>Caves</title>
+    <style>
+    header{
+            text-align: center;
+            background: linear-gradient(135deg, #ff4e50, #fc913a);
+            padding: 20px;
+}
+    .video-section{
+    text-align: center;
+    padding: 5px 10px;
+    background: linear-gradient(to top, #ffcc00 0%, #ff9933 100%);
+}
+    footer {
+            padding: 20px;
+            background: #ff6f61;
+            text-align: center;
+        }
+        .cave {
+            background: #ffad60;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(255, 87, 51, 0.5);
+            width: 400px;
+            transition: 0.5s;
+            cursor: pointer;
+            
+        }
+        .cave-info {
+            transition: 0.5s;
+            box-shadow: 0 2px 5px 1px;
+            padding: 40px;
+        }
+        .cave:hover {
+            transition: 0.5s;
+            box-shadow: 0 2px 5px 1px;
+        }
+        .btn{
+            background: none;
+            background-color: #ff5733;
+            padding: 12px 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            transition: 0.5s;
+            box-shadow: 0 2px 5px 1px;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./../images/main-cave.png" height="60px" alt="Cave Image"/>Welcome to Our Page<img src="./../images/main-cave.png" height="60px" alt="Cave Image"/></h1>
-    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discover, explore, and enjoy your time here!</h2>
-    <hr/><hr/>
-    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everything You Need to Know</b></p>
-
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <header>
+    <h1>
+        <img src="./../images/main-cave.png" height="60px" alt="Cave Image"/>Welcome to Our Page<img src="./../images/main-cave.png" height="60px" alt="Cave Image"/>
+    </h1>
+    <h2>Discover, explore, and enjoy your time here!</h2>
+    </header><hr/>
+    <div class="video-section">
+    <p><b>Everything You Need to Know</b></p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/3RedC03dMtA?si=x2yqQvDcW9VFOsfZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <hr/><hr/>
-
-    <div>
+    </div>
+    <hr/>
+    <div class="cave-info">
+    <div class="cave">
      <b>
         <h1>1. Ajanta Caves</h1>
         <img src="./../images/main-ajanta-caves.jpg" height="200px" alt="Ajanta-Cave Image"/>
@@ -30,18 +83,14 @@
                 <li>Renowned for their <b>frescoes and paintings</b>, depicting the life of Buddha and Jataka tales.</li>
                 <li>Rediscovered in 1819 and considered masterpieces of Buddhist religious art.</li>
                 <li>Ajanta Caves exemplifies one of the greatest achievements in ancient Buddhist rock-cut architecture.</li>
-                <li>The artistic traditions at Ajanta present an important and rare specimen of art, architecture, painting, and socio-cultural, religious and political history of contemporary society in India.</li>
             </ul>
-            <li>
                 <a href="https://whc.unesco.org/en/list/242/#:~:text=Ajanta%20Caves%20exemplifies%20one%20of,of%20contemporary%20society%20in%20India."  target="_blank">
-                    <button><b>Click here to explore more</b></button>
+                    <button class="btn"><b>Click here to explore more</b></button>
                 </a>
-            </li>
         </ul>
     </div>
     <hr/>
-
-    <div>
+    <div class="cave">
         <b>
            <h1>2. Ellora Caves</h1>
            <img src="./../images/main-ellora-caves.jpg" height="200px" alt="Ellora-Cave Image"/>
@@ -60,16 +109,13 @@
                    <li>The caves reflect the religious tolerance of ancient India.</li>
                    <li>Ellora was an important hub along ancient trade routes.</li>
                </ul>
-               <li>
                 <a href="https://whc.unesco.org/en/list/243/"  target="_blank">
-                    <button><b>Click here to explore more</b></button>
+                    <button class="btn"><b>Click here to explore more</b></button>
                 </a>
-            </li>
            </ul>
        </div>
        <hr/>
-
-       <div>
+       <div class="cave">
         <b>
            <h1>3. Elephanta Caves</h1>
            <img src="./../images/main-elephanta-caves.jpg" height="200px" alt="Elephanta-Cave Image"/>
@@ -86,18 +132,14 @@
                    <li>The <b>Trimurti Shiva</b> sculpture (three-faced Shiva) is the most famous attraction.</li>
                    <li>Accessible via ferry from Mumbai's Gateway of India.</li>
                    <li>Portuguese colonizers named it "Elephanta" after a <b>stone elephant statue</b>found on the island.</li>
-                   <li>The caves were damaged during colonial rule, but remain an important heritage site.</li>
                </ul>
-               <li>
                 <a href="https://whc.unesco.org/en/list/244/#:~:text=The%20Elephanta%20Caves%20are%20located,to%20its%20rich%20cultural%20past."  target="_blank">
-                    <button> <b>Click here to explore more</b></button>
+                    <button class="btn"><b>Click here to explore more</b></button>
                 </a>
-            </li>
            </ul>
        </div>
        <hr/>
-
-       <div>
+       <div class="cave">
         <b>
            <h1>4. Bhimbetka Rock Shelters Caves</h1>
            <img src="./../images/main-bhimbetka-caves.webp" height="200px" alt="Bhimbetka Rock Shelters-Cave Image"/>
@@ -115,16 +157,13 @@
                    <li>Provides the earliest evidence of human life in India.</li>
                    <li>The paintings resemble those found in <b>Lascaux (France) and Altamira (Spain)</b>,making them globally significant.</li>
                </ul>
-               <li>
                 <a href="https://en.wikipedia.org/wiki/Bhimbetka_rock_shelters" target="_blank">
-                    <button><b>Click here to explore more</b></button>
+                    <button class="btn"><b>Click here to explore more</b></button>
                 </a>
-            </li>
            </ul>
        </div>
        <hr/>
-
-       <div>
+       <div class="cave">
         <b>
            <h1>5. Tabo Caves</h1>
            <img src="./../images/main-tabo-caves.webp" height="200px" alt="Tabo-Cave Image"/>
@@ -142,18 +181,16 @@
                    <li>Provides insights into how monks lived in seclusion and extreme weather conditions.</li>
                    <li>Reflects the <b>traditional Buddhist</b>monastic lifestyle.</li>
                </ul>
-               <li>
                 <a href="https://wanderon.in/blogs/tabo-caves-in-spiti-valley"  target="_blank">
-                    <button><b>Click here to explore more</b></button>
+                    <button class="btn"><b>Click here to explore more</b></button>
                 </a>
-            </li>
            </ul>
        </div>
+    </div>
        <hr/>
-
-       <b>
+<footer>
        <a href="indianheritage.html" target="_blank">Go to Indian Heritage page</a>
-    </b>
+</footer>
     <hr/>
 </body>
 </html>
