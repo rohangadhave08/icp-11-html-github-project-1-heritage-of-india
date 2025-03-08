@@ -1,0 +1,107 @@
+/*primary color #EB5A3C */
+/*secondary color #DF9755 */
+/*light color #E7D283 */
+/*very light color #FBF5E5 */
+
+
+
+
+.headers{display: inline-block;
+border-style: solid;
+border-color: black px;
+width: 1500px;
+background-color:#FBF5E5; border-width: 2px;
+border-radius: 25px;
+height: 100px;
+
+}
+
+.search{width: max-content;
+display:inline-block ;
+align-items: center;
+padding: 14px;
+border-radius: 28px;
+background: white;
+transition: 2s;
+margin-left: 20px;
+margin-top: 0px;
+position: relative;
+  bottom: 40px;
+}
+
+.search:hover{
+    border-style: solid;
+    border-width: 2px;
+cursor: pointer;}
+
+.search-input{font-size: 16px;
+font-family:'lexend';
+color: #333333;
+margin-left: var(padding);
+outline: none;
+border: none;
+background: transparent;
+width: 400px;
+display: inline-block;
+position: relative;
+  top: 0px;
+}
+
+.icons-background{background-color:#eae1c2;
+display: inline-block;
+height: 50px; width: 650px;
+display: inline-block;
+position: relative;
+bottom: 10px;
+border-radius: 20px;
+}
+
+.icons-background:hover{border-style: solid;
+  border-width: 2px;
+cursor: pointer;}
+
+.icons{
+display: inline-block;
+border-radius: 25px;
+background-color: #f6f6f6;
+position: relative;
+bottom: 26px;
+margin: 30px;
+height: 45px; width: 90px;
+}
+
+.icon-images{position: relative;
+left: 5px;
+top: 5px;}
+
+.icon-names{position: relative;
+  left: 5px;
+  bottom:3px;
+color: rgb(25, 26, 8);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;}
+
+.register{  background-color:#FBF5E5;
+  padding: 2px 15px; 
+  height: 40px ;width: 100px;
+  border-radius: 25px;font-size: 18px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;border-style: solid ; transition: 0.5;
+position:relative;
+bottom: 33px;}
+
+.register:hover{box-shadow:2px 1px 4px 2px #E7D283 ;
+    cursor: pointer;}
+
+.login{ background-color:#FBF5E5;padding: 2px 15px; height: 40px ;width: 100px;
+  border-radius: 25px;font-size: 18px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;border-style: solid ; transition: 0.5;
+  position:relative;
+  bottom: 33px;}
+
+.login:hover{box-shadow:2px 1px 4px 2px #E7D283 ;
+    cursor: pointer;}
+
+
+
+
+
+
+
