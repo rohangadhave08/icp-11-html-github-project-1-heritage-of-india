@@ -3,35 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>indian-heritage</title>
+    <title>Indian Heritage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+.item:hover {
+            transform: scale(1.05);
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            display: block;
+            padding: 10px;
+        }
+        
+        span {
+            display: inline-block;
+            margin-top: 8px;
+            font-weight: bold;
+            color: #007bff; 
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        
+        span:hover {
+            color: #0056b3; 
+            text-decoration: underline; 
+        }
+        
+        span:active {
+            color: #003366; 
+        }
+        
+        
+
+        
+    </style>
+
 </head>
 <body>
-    <table >
-        <tr>
-            <td><img src="./../images/index-images/natural-parks.avif" height="280" > </td>
-            <td><img src="./../images/index-images/philosophy-literature(2).jpg" height="265" width="465"></td>
-
-        <tr>
-            <td><a href="./../pages/natural.html">NATURAL PARKS</a> </td>
-            <td><a href="./../pages/philosophy_and_literature.html">PHILOSOPHY AND LITERATURE</a></td>
-
-        </tr>
-<tr>
-    <td><img src="./../images/index-images/cultural-temples.webp" height="265" width="488" > </td>
-    <td><img src="./../images/index-images/caves.jpg" height="265" width="465"  > </td>
-</tr>
-<tr>
-    <td><a href="temple.html">CULTURAL TEMPLES</a></td>
-    <td><a href="caves.html">CAVES</a></td>
-</tr>
-<tr>
-    <td><img src="./../images/index-images/forts.jpg" height="260" width="488" > </td>
-    <td><img src="./../images/index-images/art-music.webp" height="260" width="465"></td>
-</tr>
-<tr>
-    <td><a href="forts.html">FORTS</a></td>
-    <td><a href="art_and_music.html">ART AND MUSIC</a></td>
-</tr>
-</table>
+    <div class="container">
+        <div class="grid">
+            <div class="item">
+                <a href="./../pages/natural.html">
+                    <img src="./../images/index-images/natural-parks.avif " alt="Natural Parks"  >
+                    <span>NATURAL PARKS</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="./../pages/philosophy_and_literature.html">
+                    <img src="./../images/index-images/philosophy-literature(2).jpg" alt="Philosophy and Literature" style="height: 200px;">
+                    <span>PHILOSOPHY AND LITERATURE</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="temple.html">
+                    <img src="./../images/index-images/cultural-temples.webp" alt="Cultural Temples" style="height: 200px;">
+                    <span>CULTURAL TEMPLES</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="caves.html">
+                    <img src="./../images/index-images/caves.jpg" alt="Caves" >
+                    <span>CAVES</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="forts.html">
+                    <img src="./../images/index-images/forts.jpg" alt="Forts" >
+                    <span>FORTS</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="art_and_music.html">
+                    <img src="./../images/index-images/art-music.webp" alt="Art and Music" style="height: 250px;">
+                    <span>ART AND MUSIC</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
