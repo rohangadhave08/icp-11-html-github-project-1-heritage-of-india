@@ -83,26 +83,16 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-size: 14px;}
 
 
-.register{  background-color:#FBF5E5;
-padding: 2px 15px; 
-height: 40px ;width: 100px;
-border-radius: 25px;font-size: 18px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-border-style: solid ; 
-transition: 0.5;
-position:relative;
-bottom: 33px;}
 
-.register:hover{box-shadow:2px 1px 4px 2px #E7D283 ;
-cursor: pointer;}
 
-.login{ background-color:#FBF5E5;
+.login-register{ background-color:#FBF5E5;
   padding: 2px 15px; height: 40px ;width: 100px;
   border-radius: 25px;font-size: 18px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-style: solid ; transition: 0.5;
   position:relative;
   bottom: 33px;}
 
-.login:hover{box-shadow:2px 1px 4px 2px #E7D283 ;
+.login-register:hover{box-shadow:2px 1px 4px 2px #E7D283 ;
 cursor: pointer;}
 
 
